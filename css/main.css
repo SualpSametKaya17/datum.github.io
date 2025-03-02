@@ -66,18 +66,9 @@
  * # base style overrides
  *
  * ------------------------------------------------------------------- */
-.logo img {
-    max-width: 100%; /* Logonun taşmasını önler */
-    height: auto; /* Oranını koruyarak boyutlandırır */
-    display: block; /* Boşlukları engeller */
-    margin: 0 auto; /* Ortalar */
-}
 
-@media (max-width: 768px) {
-    .logo img {
-        width: 70%; /* Mobil ekranlarda daha uygun boyut */
-    }
-}
+
+
 
 html {
   font-size: 10px;
@@ -1721,7 +1712,7 @@ input::-moz-focus-inner {
  * ## header logo
  * ------------------------------------------------------------------- */
 .header-logo {
-  z-index: 601;
+  z-index: 620;
   display: inline-block;
   margin: 6px 0 0 0;
   padding: 0;
@@ -1743,7 +1734,7 @@ input::-moz-focus-inner {
 }
 
 .header-logo img {
-  width: 130px;
+  width: 160px;
   height: 36px;
 }
 
