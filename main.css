@@ -1712,7 +1712,7 @@ input::-moz-focus-inner {
  * ## header logo
  * ------------------------------------------------------------------- */
 .header-logo {
-  z-index: 601;
+  z-index: 620;
   display: inline-block;
   margin: 6px 0 0 0;
   padding: 0;
@@ -1734,7 +1734,7 @@ input::-moz-focus-inner {
 }
 
 .header-logo img {
-  width: 130px;
+  width: 160px;
   height: 36px;
 }
 
