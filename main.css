@@ -66,20 +66,7 @@
  * # base style overrides
  *
  * ------------------------------------------------------------------- */
-.header-logo a.site-logo img {
-    width: 100%;
-    max-width: 1000px;
-    height: auto; /* Oran korunarak yeniden boyutlandırma */
-    display: block;
-}
 
-/* Mobil cihazlar için düzeltme */
-@media (max-width: 768px) {
-    .header-logo a.site-logo img {
-        max-width: 200px; /* Mobilde logoyu küçült */
-        margin: 0 auto; /* Ortalamak için */
-    }
-}
 
 
 
